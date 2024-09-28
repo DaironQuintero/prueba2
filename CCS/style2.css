@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+body{
+    font-family: 'Verdana';
+}
+span{
+    display: inline-block;
+    background-color: #ccc;
+    width: 100px;
+    height: 20px;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    line-height: 20px;
+}
+.texto{
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 2px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: rgb(244,244,244);
+}
+.texto p{
+    line-height: 28px;
+}
+.opciones{
+    background-color: rgb(244,244,244);
+    max-width: 500px;
+    min-height: 40px;
+    margin: 30px auto;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+.opciones .palabra{
+    display: inline-block;
+    background-color: cadetblue;
+    color: #d8bbbb;
+    margin: 5px;
+    padding: 2px 5px;
+    border-radius: 6px;
+}
+.opciones .palabra:hover{
+    background-color: rgb(129, 231, 197);
+    color: black;
+}
+#resultado{
+    text-align: center;
+}
+#comprobar{
+    width: 180px;
+}
+#reload{
+    width: 180px;
+}
+#neon{
+   margin: 30%;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+.goback{
+    margin: 20%;
+    margin-top: 0;
+    margin-bottom: 0;
+}

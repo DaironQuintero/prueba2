@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seccion2</title>
+    <link rel="stylesheet" href="CCS/Style.css">
+</head>
+<body>
+    <header>
+        <h1><img id="img2" src="https://img1.picmix.com/output/stamp/normal/4/3/4/1/381434_8edf3.gif">  PREGUNTAS DE SELECCION MULTIPLE 
+            <img id="img1" src="https://images.ctfassets.net/co0pvta7hzrh/68PNGJMJnve04n40c5CqAf/0cb68d2e13a06a9390d75ec1035295cf/vector-preguntas5.png" ></h1>
+        <P>SELECCIONE DE 1 A 2 RESPUESTAS</P>
+    </header>
+
+    <div class="container">
+        <a href="seccion1.html"><img class="goback" src="https://cdn.icon-icons.com/icons2/1511/PNG/512/backleftarrowoutlinesymbolinblackcircularbutton_104747.png"></a>
+        <section id="p0" style="display: block;">
+            <h3>1-¿QUE INGREDIENTES LLEVA EL ARROZ CON POLLO?</h3>
+            <label>
+                <input type="checkbox" value="1" name="p0" onclick="respuesta(0,this)">Hamburguesa
+            </label>
+            <label>
+                <input type="checkbox" value="2" name="p0" onclick="respuesta(0,this)">Salsa de tomate
+            </label>
+            <label>
+                <input type="checkbox" value="3" name="p0" onclick="respuesta(0,this)"> Papaya
+            </label>
+            <label>
+                <input type="checkbox" value="4" name="p0" onclick="respuesta(0,this)">Pollo
+            </label>
+        </section>
+
+        <section id="p1">
+            <h3>2-¿CUAL FUE EL NOMBRE DE LA BOMBA QUE SE LANZO EN HIROSHIMA Y NAGASAKI?</h3>
+            <label>
+                <input type="checkbox" value="1" name="p1" onclick="respuesta(1,this)">Little Boy
+            </label>
+            <label>
+                <input type="checkbox" value="2" name="p1" onclick="respuesta(1,this)">Alajat Bar
+            </label>
+            <label>
+                <input type="checkbox" value="3" name="p1" onclick="respuesta(1,this)">Fat Man
+            </label>
+            <label>
+                <input type="checkbox" value="4" name="p1" onclick="respuesta(1,this)">Ninguno
+            </label>
+        </section>
+
+        <section id="p2">
+            <h3>3-¿PARA QUE SIRVE LA ESCALA PENTATONICA?</h3>
+            <label>
+                <input type="checkbox" value="1" name="p2" onclick="respuesta(2,this)">Improvisar en la guitarra
+            </label>
+            <label>
+                <input type="checkbox" value="2" name="p2" onclick="respuesta(2,this)">Inpresionar a otros
+            </label>
+            <label>
+                <input type="checkbox" value="3" name="p2" onclick="respuesta(2,this)">Aprender mas notas
+            </label>
+            <label>
+                <input type="checkbox" value="4" name="p2" onclick="respuesta(2,this)">No sirve de nada
+            </label>
+        </section>
+
+        <section id="p3">
+            <h3>4-¿QUE ES UN BATTLE ROYAL?</h3>
+            <label>
+                <input type="checkbox" value="1" name="p3" onclick="respuesta(3,this)">Un juego de disparos
+            </label>
+            <label>
+                <input type="checkbox" value="2" name="p3" onclick="respuesta(3,this)">Un shooter en primera y tercera persona
+            </label>
+            <label>
+                <input type="checkbox" value="3" name="p3" onclick="respuesta(3,this)">No lo se
+            </label>
+            <label>
+                <input type="checkbox" value="4" name="p3" onclick="respuesta(3,this)">Ninguno
+            </label>
+        </section>
+
+        <button id="reload" onclick="nextDiv()">Siguiente</button><br>
+        <button id="reload" onclick="prevDiv()">Anterior</button><br><br>
+        <button onclick="corregir()">CORREGIR</button>
+        <h2>Cantidad acertados: <span id="resultado"></span></h2>
+        <button id="reload" onclick="reloadPage()">Refresh</button><br>
+        <p class="text">Si respondiste todas las preguntas da CLIK AQUI!!!</p>
+        <a href="seccion3.html" class="btn-neon">
+            <span id="span1"></span>
+            <span id="span2"></span>
+            <span id="span3"></span>
+            <span id="span4"></span>
+            SIGUIENTE SECCIÓN</a>
+
+        <script>
+            function reloadPage() {
+                location.reload(); // Esta función recargará la página actual
+            }
+        </script>
+    </div>
+
+    <script src="js/script2.js"></script>
+</body>
+</html>

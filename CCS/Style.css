@@ -1,0 +1,262 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Permanent Marker', cursive;
+}
+body{
+    background-image: url("https://us.123rf.com/450wm/ookasan/ookasan1811/ookasan181100014/112595414-fondo-de-textura-de-hormig%C3%B3n-blanco-de-cemento-natural-o-textura-antigua-de-piedra-como-una-pared-de.jpg?ver=6");
+    background-size: cover;
+}
+header{
+    text-align: center;
+    background:#000;
+    color: #fff;
+    padding: 10px 0;
+}
+header:hover{
+    color: rgb(177, 83, 83);
+}
+.container{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+section{
+    border: 3px solid rgb(24, 81, 24);
+    border-radius: 7px;
+    padding: 10px;
+    margin: 10px 0;
+    display: none;
+}
+label{
+    display: block;
+    padding: 7px;
+    border-radius: 7px;
+    cursor: pointer;
+    border: 2px dashed cadetblue;
+    margin: 10px 0;
+}
+label:hover{
+    background: rgb(99, 165, 165);
+}
+button{
+    width: 60%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+    background-color: rgb(114, 167, 149);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+button:hover{
+    background-color: aquamarine;
+    box-shadow:0 0 10px rgb(9, 238, 162), 0 0 40px rgb(9, 238, 162),
+    0 0 80px rgb(9, 238, 162) ;
+    transition-delay: 0.25s;
+}
+.goback{
+    width: 90px;
+    height: 90px;
+    text-align: left;
+    
+}
+.goback:hover{
+    box-shadow:0 0 10px rgb(9, 238, 162), 0 0 40px rgb(9, 238, 162),
+    0 0 80px rgb(9, 238, 162) ;
+    transition-delay: 0.25s;
+    border-radius: 50%;
+}
+.inico{
+    width: 70%;
+    height: 80%;
+    display: block;
+    margin: auto;
+    padding: 10px;
+
+    background-color: rgb(114, 167, 149);
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 15px;
+}
+#reload{
+    width: 40%;
+    
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+h2:hover{
+    color:coral;
+}
+#img1{
+    width: 200px;
+    height: 200px;
+    align-items: right;
+}
+#img2{
+    width: 200px;
+    height: 200px;
+    align-items: right;
+}
+.part2{
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+}
+#seccion2{
+    text-align: center;
+    background:rgb(70, 68, 68);
+    color: #fff;
+    padding: 10px 0;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.inicio{
+   text-align: center;
+}
+#t1{
+    text-align: center;
+    font-size: 200%;
+}
+#img3{
+    text-align: left;
+}
+#img4{
+    text-align: right;
+}
+.text{
+    text-align: center;
+    height: 120px;
+    padding: 50px;
+    margin: 0%;
+}
+.btn-neon{
+    text-align: center;
+    position: relative;
+    display: block;
+    padding: 15px 30px;
+    overflow: hidden;
+    transition: 0.2s;
+    border-radius: 20px;
+}
+.btn-neon:hover{
+    background: rgb(242, 242, 0);
+    box-shadow: 0 0 10px rgb(242, 242, 0), 0 0 40px rgb(242, 242, 0),
+    0 0 80px rgb(242, 242, 0);
+    transition-delay: 1s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg,transparent,rgb(242, 242, 0));
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+}
+#span3{
+    bottom:0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg,transparent,rgb(242, 242, 0));
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg,transparent,rgb(242, 242, 0));
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(1360deg,transparent,rgb(242, 242, 0));
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+}
+.draggable-list {
+    padding: 5px;
+    font-size: 130%;
+}
+  
+li {
+    list-style: none;
+    padding: 10px;
+    margin: 5px;
+    background-color: #cfd8dc;
+    border: 1px solid #b0bec5;
+    color: #263238;
+    cursor: grab;
+    width: 40%;
+}
+  
+.over {
+    background-color: rgb(94, 155, 157);
+}
+  
+  
+table {
+    max-width:640px;
+    margin: auto;
+    margin-bottom: 20px;
+    /* border: 1px solid #b0bec5; */
+}
+  
+th, td {
+    padding: 10px 10px;
+}
+  
+td {
+    border: none;
+}
+  
+tr:nth-child(even) {
+    background-color:transparent;
+}
+#endMessage {
+    display: none;
+}
+.contenedor{
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    
+    
+}
+
+
+  
+
